@@ -63,13 +63,13 @@ int main()
     // O that was many moons ago
 
     Tree r = NULL;
-    int size;
+    int arrSize;
     printf("Size of the tree?\n");
-    scanf("%d", &size);
-    int values[size];
+    scanf("%d", &arrSize);
+    int values[arrSize];
     int o;
     
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < arrSize; i++)
     {
         printf("Enter the %d.value\n",i);
         scanf("%d",&o);
@@ -78,7 +78,7 @@ int main()
 
     // int values[] = {15, 8, 20, 5, 10, 17, 21};
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < arrSize; i++)
     {
         r = insertNode(r, values[i]);
     }
@@ -96,7 +96,7 @@ int main()
     printf("***Old Tree***\n");
     postOrder(r);
     printf("***Updated Tree***\n");
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < arrSize; i++)
     {
         if (values[i] % 5 == 0)
             r = deleteNode(r, values[i]); // delete taken nodes
