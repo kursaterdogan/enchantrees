@@ -1,4 +1,4 @@
-[![HitCount](http://hits.dwyl.io/soullreaver/enchantrees.svg)](http://hits.dwyl.io/soullreaver/enchantrees)
+[![HitCount](http://hits.dwyl.io/kursaterdogan/enchantrees.svg)](http://hits.dwyl.io/kursaterdogan/enchantrees)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 # enchantrees
  
