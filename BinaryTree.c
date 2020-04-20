@@ -10,14 +10,23 @@ struct node
 typedef struct node *Tree;
 
 Tree newNode(int key);
+
 Tree insertNode(Tree root, int key);
+
 Tree deleteNode(Tree root, int x);
+
 void preOrder(Tree root);
+
 void inOrder(Tree root);
+
 void postOrder(Tree root);
+
 void mirror(Tree root);
+
 int size(Tree root);
+
 int height(Tree root);
+
 int numOfNodesInGivenDepth(Tree root, int l);
 
 Tree addNew(Tree n, int key)
@@ -68,11 +77,11 @@ int main()
     scanf("%d", &arrSize);
     int values[arrSize];
     int o;
-    
+
     for (int i = 0; i < arrSize; i++)
     {
-        printf("Enter the %d.value\n",i);
-        scanf("%d",&o);
+        printf("Enter the %d.value\n", i);
+        scanf("%d", &o);
         values[i] = o;
     }
 
@@ -109,7 +118,7 @@ int main()
 Tree newNode(int key)
 {
     Tree p;
-    p = (Tree)malloc(sizeof(Tree));
+    p = (Tree) malloc(sizeof(Tree));
     p->data = key;
     p->right = NULL;
     p->left = NULL;
